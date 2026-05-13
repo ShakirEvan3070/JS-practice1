@@ -105,10 +105,49 @@
 
 // console.log(reversed)
 
-const numbers = [13,24,53,46,650];
-const reversed =[...numbers].reverse();
-console.log(reversed);
-console.log(numbers);
+// const numbers = [13,24,53,46,650];
+// const reversed =[...numbers].reverse();
+// console.log(reversed);
+// console.log(numbers);
+
+const employee = [
+    {
+        name: "Shakir Ahmed",
+        age: 22,
+        profession: "Student"
+    },
+    {
+        name: "Evan",
+        age: 25,
+        profession: "Student"
+    },
+    {
+        name : "Evan Mia",
+        age : 27,
+        profession : "Software Engineer"
+    }
+]
+
+//  for (let i =0; i< employee.length; i++){
+//     console.log(employee[i].name);
+//     console.log(employee[i].age);
+//     console.log(employee[i].profession);
+//  }
+// console.log(employee[0].name)
+// console.log(employee[1].name)
+// console.log(employee[2].name)
+
+// console.log(employee[0].age)
+// console.log(employee[1].age)
+// console.log(employee[2].age)
+
+// console.log(employee[0].profession)
+// console.log(employee[1].profession)
+// console.log(employee[2].profession)
 
 
-
+// const number1 = [1,2,3,4,5];
+// const number2 = [...number1];
+// console.log(number2)
+const employee2 = [...employee];
+console.log(employee2);
