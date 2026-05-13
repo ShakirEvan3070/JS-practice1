@@ -149,5 +149,53 @@ const employee = [
 // const number1 = [1,2,3,4,5];
 // const number2 = [...number1];
 // console.log(number2)
-const employee2 = [...employee];
-console.log(employee2);
+// const employee2 = [...employee];
+// console.log(employee2);
+
+
+// function evenString(str){
+//     const size = str.length;
+//     console.log(str, size);
+//     if(size %2 === 0){
+//         console.log('Even Size')
+//         return true;
+//     }
+//     console.log("Odd size")
+//     return false;
+// }
+
+// // const myString = evenString("Hello World");
+// // console.log(myString);
+// evenString("Hello World")
+
+
+// function oddString(str){
+//     const size1 = str.length;
+//     console.log(str,size1);
+//     if(size1 % 2 !==0){
+//         console.log("Odd number");
+//         return true;
+//     }
+//     else{
+//         console.log("Size is even number");
+//         return false;
+//     }
+// }
+// oddString("Hello Evan")
+
+
+const hello = () => "Hello World!";
+console.log(hello()) 
+
+
+
+
+
+
+
+
+
+
+
+
+
