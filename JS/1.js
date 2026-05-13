@@ -86,15 +86,29 @@
 // var result3 = vag(10,5);
 // console.log(result3)
 
+// const fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"];
+// for (let i=0; i<fruits.length; i++){
+//     console.log(i);
+//     console.log(fruits[i]);
+// }
 
+// const numbers = [13,24,53,46,650];
+// for (let i = 0 ; i<numbers.length; i++){
+//     console.log(numbers[i]);
+// }
+// const numbers = [13,24,53,46,650];
+// const reversed = [];
+// for (let i=0 ; i<numbers.length ; i++){
+//     console.log(numbers[i]);
+//     reversed.push(numbers[i]);
+// } 
 
+// console.log(reversed)
 
-
-
-
-
-
-
+const numbers = [13,24,53,46,650];
+const reversed =[...numbers].reverse();
+console.log(reversed);
+console.log(numbers);
 
 
 
