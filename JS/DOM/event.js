@@ -24,3 +24,10 @@
 
 //     })
 // }
+
+document.getElementById('btn-logged-in').addEventListener('click',function(){
+    console.log('button clicked')
+
+    const newTitle = document.getElementById('logged-in');
+    newTitle.innerText = 'User logged in successfully';
+})
