@@ -45,19 +45,19 @@
 //     nameField.innerText = newName;
 // })
 
-document.getElementById('NameUpdate').addEventListener('click',function(){
+// document.getElementById('NameUpdate').addEventListener('click',function(){
     // console.log("Button has been clicked")
 
-const nameField = document.getElementById('input1').value;
+// const nameField = document.getElementById('input1').value;
 
-const NewName = document.getElementById('Name1')
-NewName.innerText = nameField;
-NewName.style.color = 'green';
-NewName.style.backgroundColor = 'yellow';
-NewName.style.width = '60px';
-NewName.style.margin = '10px ';
-NewName.style.padding = '15px';
-NewName.style.border = '1px solid black';
-NewName.style.borderRadius = '5px';
+// const NewName = document.getElementById('Name1')
+// NewName.innerText = nameField;
+// NewName.style.color = 'green';
+// NewName.style.backgroundColor = 'yellow';
+// NewName.style.width = '60px';
+// NewName.style.margin = '10px ';
+// NewName.style.padding = '15px';
+// NewName.style.border = '1px solid black';
+// NewName.style.borderRadius = '5px';
 
-})
+// })
